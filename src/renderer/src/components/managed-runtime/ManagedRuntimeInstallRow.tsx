@@ -44,7 +44,12 @@ export function ManagedRuntimeInstallRow(props: {
         setRefusal(
           cause instanceof Error
             ? cause.message
-            : translate('components.managed-runtime.failed', 'Installation failed. Try again.')
+            : action.kind === 'cancel'
+              ? translate(
+                  'components.managed-runtime.cancelFailed',
+                  "Couldn't cancel the installation. Try again."
+                )
+              : translate('components.managed-runtime.failed', 'Installation failed. Try again.')
         )
       )
       .finally(() => setPending(null))

@@ -19380,6 +19380,7 @@
       "external": "Uses the copy of {{agent}} found on this host.",
       "extracting": "Extracting {{agent}}.",
       "failed": "Installation failed. Try again.",
+      "cancelFailed": "Couldn't cancel the installation. Try again.",
       "install": "Install {{agent}}",
       "installManaged": "Install Orca's copy",
       "installed": "Installed.",

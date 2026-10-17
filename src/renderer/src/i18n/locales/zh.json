@@ -19176,6 +19176,7 @@
       "external": "使用在此主机上找到的 {{agent}} 副本。",
       "extracting": "正在解压 {{agent}}。",
       "failed": "安装失败。请重试。",
+      "cancelFailed": "无法取消安装。请重试。",
       "install": "安装 {{agent}}",
       "installManaged": "安装 Orca 的副本",
       "installed": "已安装。",

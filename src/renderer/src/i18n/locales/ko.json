@@ -19176,6 +19176,7 @@
       "external": "이 호스트에서 찾은 {{agent}} 사본을 사용합니다.",
       "extracting": "{{agent}} 압축을 푸는 중입니다.",
       "failed": "설치하지 못했습니다. 다시 시도하세요.",
+      "cancelFailed": "설치를 취소하지 못했습니다. 다시 시도하세요.",
       "install": "{{agent}} 설치",
       "installManaged": "Orca 사본 설치",
       "installed": "설치되었습니다.",
